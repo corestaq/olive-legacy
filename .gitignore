@@ -1,39 +1,12 @@
-# CMake artifacts
-/build*/
-
-# Doxygen
-/docs/
-
-# Visual Studio (Code)
-.localhistory/
-.history/
-.vscode/
-.vs/
-/out/
-CmakeSettings.json
-
-# macOS General
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Windows thumbnail cache files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-
-# Windows folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares (Windows)
-$RECYCLE.BIN/
-
-# Windows shortcuts
-*.lnk
+*.pro.user*
+Makefile
+.qmake.stash
+effects/frei0r
+ts/*.qm
+docs
 
 #
-# Qt ignores taken from https://github.com/github/gitignore/blob/master/Qt.gitignore
+# Qt ignores taken from https://github.com/github/gitignore
 #
 
 # C++ objects and libs
@@ -44,7 +17,6 @@ $RECYCLE.BIN/
 *.la
 *.lai
 *.so
-*.so.*
 *.dll
 *.dylib
 
@@ -67,8 +39,6 @@ ui_*.h
 *.jsc
 Makefile*
 *build-*
-*.qm
-*.prl
 
 # Qt unit tests
 target_wrapper.*
@@ -88,5 +58,3 @@ compile_commands.json
 
 # QtCreator local machine specific files for imported projects
 *creator.user*
-
-*_qmlcache.qrc
